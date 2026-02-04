@@ -17,7 +17,7 @@ jobs:
     # 每行一个{serv00服务器}，一个服务也可，末尾用,间隔，最后一个服务器末尾无需用,间隔
       ACCOUNTS: >
         [
-        {"RES":"n", "REP":"n", "SSH_USER":"pgone", "SSH_PASS":"^yPK$BM1vV%wwDSpq&EP", "REALITY":"pgone.useruno.com", "SUUID":"5108c8c0-ab59-4a52-8cc7-c1020b45ca36", "TCP1_PORT":"15661", "TCP2_PORT":"15661", "UDP_PORT":"15661", "HOST":"s2.hostuno.com", "ARGO_DOMAIN":"12345.457758.xyz", "ARGO_AUTH":"eyJhIjoiMWRhYTQzY2FkMGFjZTNlMDEzZjY4MWZhYjYwNmZjMGMiLCJ0IjoiMjQ0ZTEyZmQtMTkxNi00MjM0LWI3ZWQtYzZlNDJjNGRmOTEzIiwicyI6Ik1UUmpObU5rTnpBdFlqQTVNaTAwTW1OaUxUazVOalF0TlRBeVpEYzFZalF6TjJSaiJ9"},
+        {"RES":"n", "REP":"n", "SSH_USER":"pgone", "SSH_PASS":"^yPK$BM1vV%wwDSpq&EP", "REALITY":"pgone.useruno.com", "SUUID":"5108c8c0-ab59-4a52-8cc7-c1020b45ca36", "TCP1_PORT":"15661", "TCP2_PORT":"15661", "UDP_PORT":"15661", "HOST":"s2.hostuno.com", "ARGO_DOMAIN":"12345.457758.xyz", "ARGO_AUTH":"eyJhIjoiMWRhYTQzY2FkMGFjZTNlMDEzZjY4MWZhYjYwNmZjMGMiLCJ0IjoiMjQ0ZTEyZmQtMTkxNi00MjM0LWI3ZWQtYzZlNDJjNGRmOTEzIiwicyI6Ik1UUmpObU5rTnpBdFlqQTVNaTAwTW1OaUxUazVOalF0TlRBeVpEYzFZalF6TjJSaiJ9"}
         ]
     steps:
       - name: Checkout Repository
